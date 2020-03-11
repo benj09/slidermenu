@@ -23,8 +23,9 @@ html,body
 	height: 100%;
 	overflow: hidden;
 	background-color: gainsboro;
-		position: absolute;
-		top:0; left:0;
+	position: absolute;
+	top:0;
+	left:0;
 }
 .slideCon .slideshowCon .holder {
 	width: 100%;
@@ -66,17 +67,17 @@ html,body
 .slideCon .arrow{
 
 	display: inline-block;
-    border: 3px solid white;
-    width: 10px;
-    height: 10px;
-    border-left: none;
-    border-bottom: none;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+   	border: 3px solid white;
+   	width: 10px;
+    	height: 10px;
+    	border-left: none;
+    	border-bottom: none;
+    	margin: auto;
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	top: 0;
+    	bottom: 0;
 }
 .slideCon .slideshowCon .arrow.arrowLeft {
 transform: rotateZ(-135deg);
@@ -100,8 +101,7 @@ transform: rotateZ(45deg);
 	background-color: #bbb;
 	cursor: pointer;
 	transition: background-color 0.5s;
-
-		top: 550px;
+	top: 670px;
 	position: relative;
 		
 }
